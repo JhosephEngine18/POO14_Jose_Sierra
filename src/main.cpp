@@ -38,5 +38,7 @@ int main()
     }
 
     cout << "Your average is: " << Sum(Numbers, 7, 0) <<endl;
+
+    return 0;
     
 }
