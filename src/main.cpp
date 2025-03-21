@@ -17,7 +17,7 @@ void list(int numbers[], int size)
     numbers[size];
 }
 
-float Sum(int SumNum[], float dividedby)
+float SumNumbers(int SumNum[], float dividedby)
 {
     int counter = 0;
     int R;
@@ -38,7 +38,7 @@ int main()
         list(Numbers, i);
     }
 
-    cout << "Your average is: " << Sum(Numbers, 7, 0) <<endl;
+    cout << "Your average is: " << SumNumbers(Numbers, 7) <<endl;
 
     return 0;
     
