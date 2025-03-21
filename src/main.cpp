@@ -17,9 +17,10 @@ void list(int numbers[], int size)
     numbers[size];
 }
 
-float Sum(int SumNum[], float dividedby, int R)
+float Sum(int SumNum[], float dividedby)
 {
     int counter = 0;
+    int R;
     for (int i = 0; i < 7; i++)
     {  
         R = R + SumNum[i];
